@@ -211,6 +211,12 @@ android {
         }
     }
     signingConfigs {
+        release {
+            storeFile file('rngithubactions.keystore')
+            storePassword 'rngithubactions'
+            keyAlias 'rngithubactions'
+            keyPassword 'rngithubactions'
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
