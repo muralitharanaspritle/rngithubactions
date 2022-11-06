@@ -1,4 +1,4 @@
-name: Android Build using Github Actions by Muralitharan script ## name of the workflow
+name: Android Build using Github Actions by Muralitharan ## name of the workflow
 
 on:
   [push] ## push event is capture here
