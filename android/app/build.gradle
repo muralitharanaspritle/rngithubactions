@@ -77,11 +77,6 @@ import org.apache.tools.ant.taskdefs.condition.Os
  *   extraPackagerArgs: []
  * ]
  */
-plugins {
-  id 'com.android.application'
-  // Add the Google services Gradle plugin
-  id 'com.google.gms.google-services'
-}
 
 project.ext.react = [
     enableHermes: true,  // clean and rebuild if changing
